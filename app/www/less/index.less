@@ -1,0 +1,322 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+body {
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+
+@import 'mixins';
+@import 'font-awesome';
+@import 'font-montserrat';
+@import 'font-wellfleet';
+
+@black: #272e31;
+@dark_grey: #888;
+@redish: #6E2626;
+@redish_light: #d1bcbb;
+
+@blue_light: #80bae8;
+@blue_mid: #0273D4;
+@blue: #1ba0e3; // orig
+@blue_dark: #0143A3;
+
+@green: #27ae60;
+@yellow: #f39c12;
+@red: #c0392b;
+
+@theme_bar_back: @blue_mid;
+
+
+*,:before,:after {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	/*
+		background-color: @blue_mid;
+		background-image:linear-gradient(top, @blue_dark 0%, @blue_mid 51%);
+		background-image:-webkit-linear-gradient(top, @blue_dark 0%, @blue_mid 51%);
+		background-image:-ms-linear-gradient(top, @blue_dark 0%, @blue_mid 51%);
+		background-image:-webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, @blue_dark),
+			color-stop(0.51, @blue_mid)
+		);
+		background-attachment:fixed;
+	*/
+
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	color: @black;
+	background-color: @blue_dark;
+	padding: 15px;
+	padding-top: 85px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+}
+
+.event {
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	color:#FFFFFF;
+	font-size:12px;
+	margin:0px 30px;
+	padding:2px 0px;
+	
+	&.listening {
+		background-color:#333333;
+		display:block;
+	}
+
+	&.received {
+		background-color:#4B946A;
+		display:none;
+	}
+}
+@keyframes fade {
+	from { opacity: 1.0; }
+	50% { opacity: 0.4; }
+	to { opacity: 1.0; }
+}
+.blink {
+	animation:fade 3000ms infinite;
+	-webkit-animation:fade 3000ms infinite;
+}
+
+
+header {
+	z-index: 20;
+	position: absolute;
+	top: 0px;
+	height: 75px;
+	left: 0px;
+	right: 0px;
+	background-color: @blue_mid;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0, 0.5);
+
+	#logo {
+		display: block;
+		margin-top: 25px;
+		margin-left: 20px;
+		height: 30px;
+		width: auto;
+	}
+}
+
+
+#scanner {
+	position: fixed;
+	display: inline-block;
+	top: 150px;
+	left: 0px;
+	right: 0px;
+	color: rgba(255,255,255, 0.7);
+	background-color: #000;
+	// background-color: #fff;
+	// border-radius: 7px;
+	// box-shadow: 0px 1px 3px 0px rgba(0,0,0, 0.5);
+	padding: 0px;
+
+	.sidebar {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 60px;
+		z-index: 4;
+
+		> a {
+			display: inline-block;
+			width: 60px;
+			font-size: 1.8em;
+
+			> i {
+				display: inline-block;
+				width: 60px;
+				height: 60px;
+				padding: 16px 0px;
+				text-align: center;
+				color: tint(@theme_bar_back, 50%); //@blue_light;
+				background-color: @theme_bar_back;
+				border-radius: 7px;
+				box-shadow: 0px 1px 3px 0px rgba(0,0,0, 0.5);
+				
+				&:before {
+					content: "\f04c"; // user
+				}
+			}
+
+			&:hover, &:focus {
+				> i {
+					color: #fff;
+					background-color: shade(@theme_bar_back, 10%);
+				}
+			}
+
+			&.pause > i:before {
+				content: '\f030';
+			}
+		}
+	}
+
+	.mark {
+		@margin: 110px;
+		@w: 40px;
+		@h: @w;
+		@border: 10px;
+		@crosshair_w: 300px;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 3;
+		display: inline-block;
+		width: @w;
+		height: @h;
+		border-style: solid;
+		border-color: @blue_mid;
+		border-width: @border;
+		opacity: 1;
+		pointer-events: none;
+
+		&:after {
+			content: '';
+			position: relative;
+			display: inline-block;
+			width: (@w - @border);
+			height: (@h - @border);
+			//border-radius: 3px;
+		}
+
+		&.lt {
+			margin-top: -@border - (@crosshair_w / 2);
+			margin-left: -@border - (@crosshair_w / 2);
+			border-right: 0px;
+			border-bottom: 0px;
+			border-radius: 7px 0px 0px 0px;
+		}
+
+		&.rt {
+			margin-top: -@border - (@crosshair_w / 2);
+			margin-left: (@crosshair_w / 2) - (@w - @border);
+			border-left: 0px;
+			border-bottom: 0px;
+			border-radius: 0px 7px 0px 0px;
+		}
+
+		&.rb {
+			margin-top: (@crosshair_w / 2) - (@h - @border);
+			margin-left: (@crosshair_w / 2) - (@w - @border);
+			border-left: 0px;
+			border-top: 0px;
+			border-radius: 0px 0px 7px 0px;
+		}
+
+		&.lb {
+			margin-top: (@crosshair_w / 2) - (@h - @border);
+			margin-left: -@border - (@crosshair_w / 2);
+			border-right: 0px;
+			border-top: 0px;
+			border-radius: 0px 0px 0px 7px;
+		}
+	}
+
+	&.inactive .mark {
+		border-color: @blue_mid;
+		opacity: 0.2;
+	}
+
+	&.processing .mark {
+		border-color: #fff;
+		opacity: 1;
+	}
+
+	&.error .mark {
+		border-color: @yellow;
+		opacity: 1;
+	}
+
+	&.success .mark {
+		border-color: @green;
+		opacity: 1;
+	}
+
+	&.fail .mark {
+		border-color: @red;
+		opacity: 1;
+	}
+
+	#qr_canvas {
+		position: absolute;
+		z-index: 2;
+		top: 0px;
+		left: 0px;
+		width: 100% !important;
+		height: auto;
+		min-height: 360px;
+		max-height: 600px;
+		pointer-events: none;
+		opacity: 0;
+
+		&.show {
+			opacity: 1;
+		}
+	}
+
+	#qr_video_source {
+		position: absolute;
+		width: 50%;
+		height: 30px;
+		right: 0px;
+		top: -50px;
+	}
+
+	#qr_video {
+		position: relative;
+		//z-index: 1;
+		width: 100%;
+		height: auto;
+		min-height: 360px;
+		max-height: 600px;
+		opacity: 0;
+
+		&.show {
+			opacity: 1;
+		}
+	}
+
+}
