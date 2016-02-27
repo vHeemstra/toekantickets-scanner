@@ -1,0 +1,273 @@
+.repeating-linear-gradient(@angle: 45deg; @rest...) {
+	background: -webkit-repeating-linear-gradient(
+		@angle,
+		@rest
+	);
+	background: -moz-repeating-linear-gradient(
+		@angle,
+		@rest
+	);
+	background: -o-repeating-linear-gradient(
+		@angle,
+		@rest
+	);
+	background: repeating-linear-gradient(
+		@angle,
+		@rest
+	);
+}
+
+.linear-gradient(@angle: 45deg; @rest...) {
+	background-image: -webkit-linear-gradient(
+		@angle,
+		@rest
+	);
+	background-image: -moz-linear-gradient(
+		@angle,
+		@rest
+	);
+	background-image: -o-linear-gradient(
+		@angle,
+		@rest
+	);
+	background-image: linear-gradient(
+		@angle,
+		@rest
+	);
+}
+
+.blur(@string) {
+	-webkit-filter: blur(@string);
+	-moz-filter: blur(@string);
+	-o-filter: blur(@string);
+	-ms-filter: blur(@string);
+	filter: blur(@string);
+}
+
+.border-top-left-radius(@radius) {
+	-webkit-border-top-left-radius: @radius;
+	-moz-border-top-left-radius: @radius;
+	border-top-left-radius: @radius;
+}
+.border-top-right-radius(@radius) {
+	-webkit-border-top-right-radius: @radius;
+	-moz-border-top-right-radius: @radius;
+	border-top-right-radius: @radius;
+}
+.border-bottom-left-radius(@radius) {
+	-webkit-border-bottom-left-radius: @radius;
+	-moz-border-bottom-left-radius: @radius;
+	border-bottom-left-radius: @radius;
+}
+.border-bottom-right-radius(@radius) {
+	-webkit-border-bottom-right-radius: @radius;
+	-moz-border-bottom-right-radius: @radius;
+	border-bottom-right-radius: @radius;
+}
+
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.box-sizing(@type: border-box) {
+	-webkit-box-sizing: @type;
+	-moz-box-sizing: @type;
+	box-sizing: @type;
+}
+
+.box-shadow(@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow: @string;
+	box-shadow: @string;
+}
+
+.transition(@string) {
+	-webkit-transition: @string;
+	-moz-transition: @string;
+	-o-transition: @string;
+	transition: @string;
+}
+
+.animation (@name, @duration: 300ms, @ease: ease, @delay: 0ms, @count: 1, @direction: normal) {
+	-webkit-animation: @name @duration @ease @delay @count @direction;
+	-moz-animation:    @name @duration @ease @delay @count @direction;
+	-ms-animation:     @name @duration @ease @delay @count @direction;
+	-o-animation:     @name @duration @ease @delay @count @direction;
+	animation:     @name @duration @ease @delay @count @direction;
+}
+
+.keyframes(@name, @f, @t) {
+	@-webkit-keyframes @name { 
+		from { @f(); }
+		to { @t(); }
+	}
+
+	@-moz-keyframes @name { 
+		from { @f(); }
+		to { @t(); }
+	}
+
+	@-ms-keyframes @name { 
+		from { @f(); }
+		to { @t(); }
+	}
+
+	@-o-keyframes @name { 
+		from { @f(); }
+		to { @t(); }
+	}
+
+	@keyframes @name { 
+		from { @f(); }
+		to { @t(); }
+	}
+}
+
+.transform(@string) {
+	-webkit-transform: @string;
+	-moz-transform: @string;
+	-ms-transform: @string;
+	-o-transform: @string;
+	transform: @string;
+}
+.scale (@factor) {
+	-webkit-transform: scale(@factor);
+	-moz-transform:      scale(@factor);
+	-ms-transform:       scale(@factor);
+	-o-transform:        scale(@factor);
+	transform:       scale(@factor);
+}
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform:      rotate(@deg);
+	-ms-transform:       rotate(@deg);
+	-o-transform:        rotate(@deg);
+	transform:       rotate(@deg);
+}
+.skew (@deg, @deg2) {
+	-webkit-transform:       skew(@deg, @deg2);
+	-moz-transform:      skew(@deg, @deg2);
+	-ms-transform:       skew(@deg, @deg2);
+	-o-transform:        skew(@deg, @deg2);
+	transform:       skew(@deg, @deg2);
+}
+.translate (@x, @y:0) {
+	-webkit-transform:       translate(@x, @y);
+	-moz-transform:      translate(@x, @y);
+	-ms-transform:       translate(@x, @y);
+	-o-transform:        translate(@x, @y);
+	transform:       translate(@x, @y);
+}
+.translate3d (@x, @y: 0, @z: 0) {
+	-webkit-transform:       translate3d(@x, @y, @z);
+	-moz-transform:      translate3d(@x, @y, @z);
+	-ms-transform:       translate3d(@x, @y, @z);
+	-o-transform:        translate3d(@x, @y, @z);
+	transform:       translate3d(@x, @y, @z);
+}
+.backface-visibility (@v: hidden) {
+	-webkit-backface-visibility: @v;
+	backface-visibility: @v;
+}
+.perspective-origin (@w: 50%, @h: 50%) {
+	-webkit-perspective-origin:    @w @h;
+	-moz-perspective-origin:   @w @h;
+	perspective-origin:        @w @h;
+}
+.perspective (@value: 1000) {
+	-webkit-perspective:    @value;
+	-moz-perspective:   @value;
+	perspective:        @value;
+}
+.transform-origin (@x:center, @y:center) {
+	-webkit-transform-origin: @x @y;
+	-moz-transform-origin:    @x @y;
+	-ms-transform-origin:     @x @y;
+	-o-transform-origin:      @x @y;
+	transform-origin:      @x @y;
+}
+.transform-origin3 (@x:center, @y:center, @z:0) {
+	-webkit-transform-origin: @x @y @z;
+	-moz-transform-origin:    @x @y @z;
+	transform-origin:      @x @y @z;
+}
+
+.placeholder(@rules) {
+	&::-webkit-input-placeholder {
+		@rules();
+	}
+	&:-moz-placeholder {
+		@rules();
+	}
+	&::-moz-placeholder {
+		@rules();
+	}
+	&:-ms-input-placeholder {
+		@rules();
+	}
+}
+
+
+
+.generateContentLoop(@counter, @max, @padding) when (@counter <= @max) {
+	@tmp: round((100 / @max) * @counter);
+	div.content@{tmp} {
+		float: left;
+		width: (100% / @max) * @counter;
+		padding: @padding;
+	}
+	.generateContentLoop((@counter + 1), @max, @padding);
+}
+.generateContent(@n, @padding: 15px, @i: 1) when (@i =< @n) {
+	/*
+		@tmp: round(100/@i);
+		div.content@{tmp} {
+			float: left;
+			width: (100% / @i);
+			padding: @padding;
+		}
+	*/
+	.generateContentLoop(1, @i, @padding);
+	.generateContent(@n, @padding, (@i + 1));
+}
+
+
+.generateContentControlLoop(@counter, @max, @margin) when (@counter <= @max) {
+	@w: ((960px / @i) * @counter) - (2 * @margin);
+	@tmp: round((100/@max) * @counter);
+	.content@{tmp} {
+		float: left;
+		width: @w;
+		margin: @margin;
+		background-color: #ffffff;
+	}
+	.generateContentControlLoop((@counter + 1), @max, @margin);
+}
+.generateContentControl(@n, @margin: 10px, @i: 1) when (@i =< @n) {
+	/*
+		@w: (960px / @i) - (2 * @margin);
+		@tmp: round(100/@i);
+		.content@{tmp} {
+			float: left;
+			width: @w;
+			margin: @margin;
+			background-color: #ffffff;
+		}
+	*/
+	.generateContentControlLoop(1, @i, @margin);
+	.generateContentControl(@n, @margin, (@i + 1));
+}
+
+.text-outline(@n: 1, @color) {
+	text-shadow:
+		@n 0px 0px @color,
+		-@n 0px 0px @color,
+		0px @n 0px @color,
+		0px -@n 0px @color,
+		@n @n 0px @color,
+		@n -@n 0px @color,
+		-@n @n 0px @color,
+		-@n -@n 0px @color;
+}

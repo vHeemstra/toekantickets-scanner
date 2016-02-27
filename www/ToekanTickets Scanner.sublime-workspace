@@ -1,0 +1,1229 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"b",
+				"background-size"
+			],
+			[
+				"video",
+				"video_element"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"re",
+				"recpause"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"is",
+				"is_streaming"
+			],
+			[
+				"stop",
+				"stopVideoStreaming"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"qr_st",
+				"qr_stop"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"qr_",
+				"qr_stop"
+			],
+			[
+				"v",
+				"video_element"
+			],
+			[
+				"vid",
+				"video_element"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"sele",
+				"select_source"
+			],
+			[
+				"dev",
+				"device_id"
+			],
+			[
+				"sel",
+				"select_source"
+			],
+			[
+				"vi",
+				"video_height"
+			],
+			[
+				"ove",
+				"over_height"
+			],
+			[
+				"over",
+				"over_width"
+			],
+			[
+				"repl",
+				"replaceWith	.replaceWith()"
+			],
+			[
+				"qr",
+				"qr_video"
+			],
+			[
+				"viedo",
+				"videoElement"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"has",
+				"has_canvas"
+			],
+			[
+				"sour",
+				"source_array"
+			],
+			[
+				"top",
+				"top-menu"
+			],
+			[
+				"menu",
+				"menu-toggle"
+			],
+			[
+				"blue_",
+				"blue_dark"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"oc_",
+				"oc_h"
+			],
+			[
+				"ob",
+				"ob_clean"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"pa",
+				"page_messages_on"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"arrp",
+				"array_push"
+			],
+			[
+				"page",
+				"page_message"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass()"
+			],
+			[
+				"close",
+				"close-message"
+			],
+			[
+				"tra",
+				"translateZ"
+			],
+			[
+				"navi",
+				"navigation_loading"
+			],
+			[
+				"url",
+				"urlBase"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"navig",
+				"navigate_finish"
+			],
+			[
+				"loader",
+				"loaderSize"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"redis",
+				"redish"
+			],
+			[
+				"redish",
+				"redish_light"
+			],
+			[
+				"addS",
+				"addStyle"
+			],
+			[
+				"cu",
+				"current_parent"
+			],
+			[
+				"slug",
+				"slugs"
+			],
+			[
+				"ch",
+				"choices"
+			],
+			[
+				"val",
+				"validation"
+			],
+			[
+				"fie",
+				"field"
+			],
+			[
+				"evalua",
+				"evaluate"
+			],
+			[
+				"min",
+				"min_length"
+			],
+			[
+				"parma",
+				"params"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"isst",
+				"is_string"
+			],
+			[
+				"req",
+				"requirements"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fomr",
+				"format"
+			],
+			[
+				"form",
+				"format"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"cre",
+				"create_random_by_format"
+			],
+			[
+				"def",
+				"default_settings"
+			],
+			[
+				"processM",
+				"processMessages"
+			],
+			[
+				"array_f",
+				"array_filter"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"array_",
+				"array_combine"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"web",
+				"website_language"
+			],
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"before",
+				"before_cre8_css"
+			],
+			[
+				"spl_au",
+				"spl_autoload"
+			],
+			[
+				"param",
+				"paramKeys"
+			],
+			[
+				"get",
+				"getUrlParameter"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"para",
+				"paramArray"
+			],
+			[
+				"sp",
+				"sParameterName"
+			],
+			[
+				"sP",
+				"sParameterName"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"filta",
+				"filter_tags"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"filter",
+				"filter_fields"
+			],
+			[
+				"filter_f",
+				"filter_field"
+			],
+			[
+				"all",
+				"all_count"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"ope",
+				"operator"
+			],
+			[
+				"unse",
+				"unset_filter"
+			],
+			[
+				"dir",
+				"directionTxt"
+			],
+			[
+				"array",
+				"array_search"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"tot",
+				"total_result_sql"
+			],
+			[
+				"res",
+				"result_sql"
+			],
+			[
+				"to",
+				"total_result_sql"
+			],
+			[
+				"names",
+				"names_last"
+			],
+			[
+				"cAt",
+				"cAttendeesFirstNames"
+			],
+			[
+				"bookin",
+				"booking_attendees"
+			],
+			[
+				"dataf",
+				"datafilter_payments"
+			],
+			[
+				"str",
+				"strtolower"
+			],
+			[
+				"cAddressC",
+				"cAddressCountry"
+			],
+			[
+				"cA",
+				"cAddressPc"
+			],
+			[
+				"cAd",
+				"cAddressStreet"
+			],
+			[
+				"cN",
+				"cNameLast"
+			],
+			[
+				"cNa",
+				"cNameMiddle"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"nor",
+				"nowrap"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"parent_referral",
+				"parent_referral_extra"
+			],
+			[
+				"mail",
+				"mailHTMLContent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "less/index.less",
+			"settings":
+			{
+				"buffer_size": 3383,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ToekanTickets Scanner.sublime-project",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*\n * Less2Css default settings\n *\n * ******** IMPORTANT ********\n *\n * DO NOT modify this file,\n * Copy the content to user settings\n * via \"Preferences\" -> \"Package Settings\" -> \"Less2Css\" -> \"Settings - User\".\n *\n */\n\n{\n  \"lesscCommand\": false,\n  \"lessBaseDir\": \"./\",\n  \"outputDir\": \"./\",\n  \"outputFile\": \"\", //[example.css] if left blank uses same name of .less file\n  \"minify\": true,\n  \"minName\": false,\n  \"autoCompile\": true,\n  \"showErrorWithWindow\": true,\n  \"main_file\": false,\n  \"ignorePrefixedFiles\": false\n}\n",
+			"settings":
+			{
+				"buffer_size": 518,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "Package Control: i",
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"Package Control: u",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/css",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/less"
+	],
+	"file_history":
+	[
+		"/C/Users/Philip/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Users/Philip/AppData/Roaming/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/config.xml",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/index.html",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/css/index.less",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/js/index.js",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/plugins/ios.json",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/js/mixins.less",
+		"/D/Apps/ToekanTickets/ToekanTickets Scanner/www/css/index.lss.css",
+		"/C/pServer/htdocs/Site/Site.sublime-project",
+		"/C/pServer/htdocs/Site/public/includes/gumhelper.js",
+		"/C/pServer/htdocs/Site/public/includes/custom_qr.js",
+		"/C/pServer/htdocs/Site/public/includes/jsqrcode.js",
+		"/C/pServer/htdocs/Site/public/includes/getusermedia.js",
+		"/C/pServer/htdocs/Site/.htaccess",
+		"/C/pServer/htdocs/Site/public/qrlist.php",
+		"/C/pServer/htdocs/Site/public/qr.php",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode.min.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/databr.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/alignpat.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/findpat.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/qrcode.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/decoder.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/gf256.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/gf256poly.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/rsdecoder.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/datamask.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/bmparser.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/datablock.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/bitmat.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/errorlevel.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/formatinf.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/detector.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/version.js",
+		"/C/pServer/htdocs/Site/public/uploads/jsqrcode/grid.js",
+		"/C/pServer/htdocs/Site/public/uploads/stackblur.js",
+		"/C/pServer/htdocs/Site/public/index.php",
+		"/C/pServer/mysql/data/mysql_queries.log",
+		"/C/pServer/mysql/data/philip.err",
+		"/C/pServer/htdocs/Site/overig/image-placeholder-url.txt",
+		"/C/pServer/htdocs/Site/overig/editor-jss",
+		"/C/pServer/htdocs/Site/public/js/jquery.address.js",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.499/scripts.js",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.102/jquery.address.js",
+		"/C/pServer/htdocs/Site/public/js/swfaddress.uncompressed.js",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.481/swfaddress-optimizer.js",
+		"/C/pServer/htdocs/Site/overig/phpmailer-list-unsubscribe_header.txt",
+		"/C/pServer/htdocs/Site/public/js/v1.js",
+		"/C/pServer/htdocs/Site/overig/dns-prefetch_html.txt",
+		"/C/pServer/htdocs/Site/public/less/font-montserrat.less",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.928/stylesheet.css",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.834/stylesheet.css",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.466/stylesheet.css",
+		"/C/Users/Philip/AppData/Roaming/Sublime Text 3/Packages/User/Minify.sublime-settings",
+		"/C/Users/Philip/AppData/Roaming/Sublime Text 3/Packages/Minify/Minify.sublime-settings",
+		"/C/Users/Philip/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md",
+		"/C/pServer/htdocs/Site/public/less/font-awesome.less",
+		"/C/pServer/htdocs/Site/cre8/classes/Test.php",
+		"/C/pServer/htdocs/Site/cre8/.htaccess",
+		"/C/pServer/htdocs/Site/cre8/classes/Database.php",
+		"/C/pServer/htdocs/Site/cre8/css/font-awesome.css",
+		"/C/pServer/htdocs/Site/cre8/less/font-awesome.less",
+		"/C/pServer/htdocs/Site/cre8/less/test.less",
+		"/C/pServer/htdocs/Site/cre8/less/style.less",
+		"/C/pServer/htdocs/Site/cre8/css/styles.css",
+		"/C/pServer/htdocs/Site/cre8/css/styles.min.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/less/mixins.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/overig/test.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/ImageOptimizer/OptimizerFactory.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/Symfony/Component/Process/PhpProcess.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/ImageOptimizer/Command.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/ImageOptimizer/ChainOptimizer.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/ImageOptimizer/Optimizer.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/mod.contact.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/i.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/func.general.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/less/style_control.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/less/style_control.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/fonts.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_control.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_m.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_s.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_l.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_xl.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/js/custom.js",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/js/javascript.js",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_control.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/less/jquery-ui-1.8.21.custom.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_responsive.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/fonts.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/styles.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/smoothness/jquery-ui-1.8.21.custom.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/smoothness/jquery-ui-1.8.21.custom.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/template_old.html",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/Pages.php",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/alle_nieuws_en_activiteiten.php",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/nieuws.php",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/Dater.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_basic.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_basic.css",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/template.html",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/gulpfile.js",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/page-news.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/x.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/philip.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/controltemplate.html",
+		"/C/Users/Philip/Desktop/w-script.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/func.forms.php",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/page-blog.php",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/front-page.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/courses.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/courses_availability.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/control.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/ajax.get_courses.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/template_mail.html",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/style_editor.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/.htaccess",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/fpdf.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/pdftest.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/font/BubblegumSans-Regular.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/font/Montserrat-Bold.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/font/Montserrat-Regular.php",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/css/mixins.less",
+		"/C/pServer/htdocs/ZeilschoolDeStipe_nl/mod.booking.bak2.php",
+		"/C/Users/Philip/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Philip/AppData/Local/Temp/Rar$DIa0.085/02types.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\pServer\\htdocs\\UitJeHoofd-InJeLijf_nl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#A7A7A7",
+			"#E4E4E4",
+			"qrcode.result",
+			"thumb",
+			"#overlay-19",
+			"db",
+			"#overlay-20",
+			"  ",
+			"font-family: 'montserrat';",
+			"url('",
+			"#1ba0e3",
+			"1ba0e3",
+			"#80bae8",
+			"#272e31",
+			"#0143A3",
+			"#0273D4",
+			"outputPage",
+			"  ",
+			"'../../public/",
+			"public",
+			"new(",
+			"$this->create_random",
+			"$this->addMessage",
+			"addMessage",
+			"$this->settings",
+			"$this->db",
+			"$page",
+			"db",
+			"$this->db",
+			"$mysqli",
+			"fonts",
+			"url(smoothness/images/",
+			"url(images/",
+			"images/",
+			"sql_filters",
+			"$cnt_",
+			"$settings",
+			";\n			break;",
+			":\n			$r = ",
+			"case ",
+			"Excel",
+			"name_",
+			"_name",
+			"get_c",
+			"Paytone",
+			"TODO",
+			"booking_payments",
+			"booking_payment",
+			"booking_orders",
+			"email",
+			"DEFAULT CURRENT_TIMESTAMP",
+			"TODO",
+			"action",
+			"formConfirmFields",
+			"PR2",
+			"PR1",
+			"PU1",
+			"bMargin",
+			"Margin",
+			"MyriadProBold",
+			"MyriadProRegular",
+			"$_SESSION['booking_payment']",
+			"showPaymentForm",
+			"processPayment",
+			"formPaymentFields",
+			"verwerken",
+			"getRowDimension",
+			"AutoSize",
+			"AutoSzie",
+			"ordernummer",
+			"$cart['items']",
+			"$_SESSION['order']",
+			"_SESSION",
+			"$_SESSION['order']",
+			"price_excl_part1",
+			"action",
+			"show_confirm",
+			"$_POST",
+			"attendees",
+			"courseValues",
+			"\n",
+			"Moll",
+			"input",
+			"action",
+			"html",
+			"l'll",
+			"l",
+			"l'd",
+			" l ",
+			"l",
+			"l'm",
+			"l",
+			"LElGH",
+			"l",
+			"1",
+			"carouselTo",
+			"padding: 20px; padding-left: 15px;",
+			"float: right; ",
+			"autoH2IMG",
+			"carousel.php",
+			"carousel_content",
+			"moduleCarousel",
+			" faq_content ",
+			"carousel_content",
+			"Carousel",
+			"mod.carousel",
+			"webdes",
+			"	",
+			"\n",
+			"&lt;\n",
+			"&gt;\n",
+			";",
+			"}",
+			"{",
+			"#f8f8f8",
+			"f8f8f8",
+			";\n",
+			"glyp",
+			"rgba(0, 0, 0, 1)",
+			"}",
+			"intro",
+			"e30613",
+			"preview",
+			"curPi",
+			"coursecaticon_",
+			"pic",
+			"createTicketQR",
+			"createTicket"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#0143A3",
+			"#0273D4",
+			"qr-canvas",
+			"#overlay",
+			"#overlay-19",
+			"	",
+			"font-family: 'Montserrat';",
+			"url('../fonts/",
+			"@blue",
+			"@blue_light",
+			"@black",
+			"@blue_dark",
+			"@blue_mid",
+			"output",
+			"	",
+			"CRE8_DIR . '/../public/",
+			"create_random",
+			"$this->parent->addMessage",
+			"$this->parent->settings",
+			"$this->parent->db",
+			"$this->parent->page",
+			"$this->parent->db",
+			"$this->db",
+			"url(../img/smoothness/",
+			"url(smoothness/images/",
+			"smoothness/images/",
+			"$cols",
+			",\n		),",
+			"=> array(\n			'head' => ",
+			"",
+			"Montserrat-Bold",
+			"Montserrat-Regular",
+			"boekingsnummer",
+			"$_SESSION['booking_order']",
+			"$_SESSION['order']",
+			" ",
+			"',\n'",
+			"I'll",
+			"I",
+			"I'd",
+			" I ",
+			"I",
+			"I'm",
+			"LEIGH",
+			"I",
+			"carouselScrollTo",
+			"padding-top: 20px; padding-right: 5px;",
+			"",
+			"faq.php",
+			"faq_content",
+			"moduleFaq",
+			" `faq_content` ",
+			"faq_content",
+			"FAQ",
+			"mod.faq",
+			"",
+			"&lt;",
+			"&gt;",
+			";\n",
+			"}\n",
+			"{\n",
+			"rgba(0,0,0, 0.05)",
+			"@color",
+			"}\n",
+			"}\\n",
+			"icon",
+			"mobile-small-w100",
+			"$reportVars = @get_defined_vars();",
+			"iconv('UTF-8', 'windows-1252', \"•\")",
+			"$_SESSION[\"cart\"]",
+			"getDashboard(",
+			"dashboard/",
+			"url('../fonts/roboto",
+			"font-family: 'Roboto'",
+			"'+\n'",
+			"jqueryScript",
+			"ToekanTickets_nl",
+			"MyriadProWeb",
+			"ToekanTickets_nl",
+			"url('../fonts/bitter-",
+			"'Bitter'",
+			"$oC[$aspect]",
+			"mysqli_query($conn, ",
+			"$cDurAdd",
+			"cDurAdd",
+			"cDuration",
+			"",
+			"$colVal =",
+			"$colVal",
+			"referrals.php",
+			"$_SESSION[\"referralbeheer\"]",
+			"`file_access`",
+			"$mollie_payment",
+			"download",
+			"mysqli_insert_id($conn)",
+			"mysqli_affected_rows($conn)",
+			"mysqli_fetch_assoc(",
+			"mysqli_fetch_row(",
+			"mysqli_fetch_object(",
+			"mysqli_num_rows(",
+			"mysqli_query($conn, ",
+			"mysql_query($conn,$q);",
+			"$val==$duration[1]",
+			"<td'.$htmlHeadCls.'",
+			"user_id",
+			"users.php",
+			"$_SESSION[\"userbeheer\"]",
+			"$userKolommen",
+			"getUsers",
+			"paid",
+			"$evalMethod==\"notempty\"",
+			"$curElm",
+			"$uc->module",
+			"$cID",
+			"<a href=\"mijn-profiel/\" class=\"action ico-back\">Mijn profiel</a><br />",
+			"size=\"2\"",
+			"fragment",
+			"$(playButton).attr(\"class\", \"pause\")",
+			"$(playButton).attr(\"class\", \"play\")",
+			"((huilend))",
+			"<span>&uarr;</span>",
+			"&uarr;",
+			"&deg;",
+			"",
+			"$moduleMails",
+			"trainingen",
+			"training",
+			"Training"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "less/index.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ToekanTickets Scanner.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 68.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ToekanTickets Scanner.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

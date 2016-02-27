@@ -1,0 +1,19 @@
+{
+    "com.mbppower.camerapreview": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mbppower/CordovaCameraPreview.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-barcodescanner"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "D:\\Apps\\ToekanTickets\\ToekanTickets Scanner"
+		}
+	],
+    "settings": {
+        "less2css": {
+			"outputDir": "auto",
+			"outputFile": "", //[example.css] if left blank uses same name of .less file
+        }
+    }
+}
