@@ -1,1 +1,2 @@
-# toekantickets-scanner
+# ToekanTickets.nl Scanner app
+... soon ...
